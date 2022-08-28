@@ -1,0 +1,26 @@
+[Mail HTTP API]
+# URL to the API.
+# The mail API should be on localhost, otherwise on SSL.
+forgot_password.http_url (Mail API URL) string
+
+# The token as configured in config.php.
+forgot_password.http_token (Mail API token) string
+
+[Emails]
+
+[*Confirming emails]
+# The subject of the confirm email
+forgot_password.confirm_email_subject (Confirm Email Subject) string Confirm your Minetest account email address
+
+# The email template used for the confirm email
+# Use the template provided in MODDIR/email/confirm.txt by default.
+forgot_password.confirm_email_template (Confirm Email Template path) filepath
+
+[*Password recovery emails]
+# The subject of the password recoverey email
+forgot_password.passwd_email_subject (Password recovery Email Subject) string Recover your Minetest account
+
+# The email template used for the password recoverey email
+# Use the template provided in MODDIR/email/passwd.txt by default.
+forgot_password.passwd_email_template (Password recovery Email Template path) filepath
+

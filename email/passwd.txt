@@ -1,0 +1,11 @@
+Dear {name},
+
+	Somebody (maybe you) requested to reset your password from the IP {ip}.
+
+	If it is not you, you can ignore this message. If it is, log on with the following username and any password:
+		{reset_login_name}
+
+Yours faithfully,
+Minetest Server Team
+
+To server owner: This is the default email template. You probably want to write your own.

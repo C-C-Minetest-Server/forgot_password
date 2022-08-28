@@ -1,0 +1,11 @@
+Dear {name},
+
+	Somebody (maybe you) requested to change/set your email address of your Minetest account. The email address is {email}.
+
+	If it is not you, you can ignore this message. If it is, please type the following command into the chatroom:
+		/confirm_email {confirm_code}
+
+Yours faithfully,
+Minetest Server Team
+
+To server owner: This is the default email template. You probably want to write your own.
